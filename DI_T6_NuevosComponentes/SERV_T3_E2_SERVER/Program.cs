@@ -48,6 +48,7 @@ namespace SERV_T3_E2_Serve
             sw.Flush();
             usuario = sr.ReadLine();
             usuarios.Add(usuario + "@" + ieClient.Address);
+            sendMessages("Client connected:" + usuario + "@" + ieClient.Address + " at port " + ieClient.Port, sw);
             while (conectado)
             {
                 try
