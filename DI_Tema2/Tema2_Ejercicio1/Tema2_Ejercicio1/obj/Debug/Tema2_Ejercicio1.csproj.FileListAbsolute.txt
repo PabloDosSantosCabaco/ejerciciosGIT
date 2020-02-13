@@ -1,0 +1,14 @@
+C:\Users\Pablo\source\repos\Tema2_Ejercicio1\Tema2_Ejercicio1\bin\Debug\Tema2_Ejercicio1.exe.config
+C:\Users\Pablo\source\repos\Tema2_Ejercicio1\Tema2_Ejercicio1\bin\Debug\Tema2_Ejercicio1.exe
+C:\Users\Pablo\source\repos\Tema2_Ejercicio1\Tema2_Ejercicio1\bin\Debug\Tema2_Ejercicio1.pdb
+C:\Users\Pablo\source\repos\Tema2_Ejercicio1\Tema2_Ejercicio1\obj\Debug\Tema2_Ejercicio1.csprojAssemblyReference.cache
+C:\Users\Pablo\source\repos\Tema2_Ejercicio1\Tema2_Ejercicio1\obj\Debug\Tema2_Ejercicio1.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\source\repos\Tema2_Ejercicio1\Tema2_Ejercicio1\obj\Debug\Tema2_Ejercicio1.exe
+C:\Users\Pablo\source\repos\Tema2_Ejercicio1\Tema2_Ejercicio1\obj\Debug\Tema2_Ejercicio1.pdb
+C:\Users\Pablo\source\repos\VisualStudio\Tema2_Ejercicio1\Tema2_Ejercicio1\bin\Debug\Tema2_Ejercicio1.exe.config
+C:\Users\Pablo\source\repos\VisualStudio\Tema2_Ejercicio1\Tema2_Ejercicio1\bin\Debug\Tema2_Ejercicio1.exe
+C:\Users\Pablo\source\repos\VisualStudio\Tema2_Ejercicio1\Tema2_Ejercicio1\bin\Debug\Tema2_Ejercicio1.pdb
+C:\Users\Pablo\source\repos\VisualStudio\Tema2_Ejercicio1\Tema2_Ejercicio1\obj\Debug\Tema2_Ejercicio1.csprojAssemblyReference.cache
+C:\Users\Pablo\source\repos\VisualStudio\Tema2_Ejercicio1\Tema2_Ejercicio1\obj\Debug\Tema2_Ejercicio1.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\source\repos\VisualStudio\Tema2_Ejercicio1\Tema2_Ejercicio1\obj\Debug\Tema2_Ejercicio1.exe
+C:\Users\Pablo\source\repos\VisualStudio\Tema2_Ejercicio1\Tema2_Ejercicio1\obj\Debug\Tema2_Ejercicio1.pdb

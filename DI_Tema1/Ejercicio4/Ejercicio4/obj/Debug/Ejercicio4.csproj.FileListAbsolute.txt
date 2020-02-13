@@ -1,0 +1,14 @@
+C:\Users\Pablo\source\repos\Ejercicio4\Ejercicio4\bin\Debug\Ejercicio4.exe.config
+C:\Users\Pablo\source\repos\Ejercicio4\Ejercicio4\bin\Debug\Ejercicio4.exe
+C:\Users\Pablo\source\repos\Ejercicio4\Ejercicio4\bin\Debug\Ejercicio4.pdb
+C:\Users\Pablo\source\repos\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\source\repos\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.exe
+C:\Users\Pablo\source\repos\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.pdb
+C:\Users\Pablo\source\repos\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.csprojAssemblyReference.cache
+C:\Users\Pablo\source\repos\VisualStudio\Ejercicio4\Ejercicio4\bin\Debug\Ejercicio4.exe.config
+C:\Users\Pablo\source\repos\VisualStudio\Ejercicio4\Ejercicio4\bin\Debug\Ejercicio4.exe
+C:\Users\Pablo\source\repos\VisualStudio\Ejercicio4\Ejercicio4\bin\Debug\Ejercicio4.pdb
+C:\Users\Pablo\source\repos\VisualStudio\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.csprojAssemblyReference.cache
+C:\Users\Pablo\source\repos\VisualStudio\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\source\repos\VisualStudio\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.exe
+C:\Users\Pablo\source\repos\VisualStudio\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.pdb

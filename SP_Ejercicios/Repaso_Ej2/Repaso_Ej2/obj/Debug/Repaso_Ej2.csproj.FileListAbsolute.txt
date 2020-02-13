@@ -1,0 +1,9 @@
+C:\Users\pablo\source\repos\Repaso_Ej2\Repaso_Ej2\bin\Debug\Repaso_Ej2.exe.config
+C:\Users\pablo\source\repos\Repaso_Ej2\Repaso_Ej2\bin\Debug\Repaso_Ej2.exe
+C:\Users\pablo\source\repos\Repaso_Ej2\Repaso_Ej2\bin\Debug\Repaso_Ej2.pdb
+C:\Users\pablo\source\repos\Repaso_Ej2\Repaso_Ej2\obj\Debug\Repaso_Ej2.csprojAssemblyReference.cache
+C:\Users\pablo\source\repos\Repaso_Ej2\Repaso_Ej2\obj\Debug\Repaso_Ej2.Form1.resources
+C:\Users\pablo\source\repos\Repaso_Ej2\Repaso_Ej2\obj\Debug\Repaso_Ej2.Properties.Resources.resources
+C:\Users\pablo\source\repos\Repaso_Ej2\Repaso_Ej2\obj\Debug\Repaso_Ej2.csproj.GenerateResource.cache
+C:\Users\pablo\source\repos\Repaso_Ej2\Repaso_Ej2\obj\Debug\Repaso_Ej2.exe
+C:\Users\pablo\source\repos\Repaso_Ej2\Repaso_Ej2\obj\Debug\Repaso_Ej2.pdb

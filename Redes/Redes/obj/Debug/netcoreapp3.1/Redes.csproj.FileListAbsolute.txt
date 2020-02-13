@@ -1,0 +1,11 @@
+C:\Users\pablo\source\repos\Redes\Redes\bin\Debug\netcoreapp3.1\Redes.exe
+C:\Users\pablo\source\repos\Redes\Redes\bin\Debug\netcoreapp3.1\Redes.deps.json
+C:\Users\pablo\source\repos\Redes\Redes\bin\Debug\netcoreapp3.1\Redes.runtimeconfig.json
+C:\Users\pablo\source\repos\Redes\Redes\bin\Debug\netcoreapp3.1\Redes.runtimeconfig.dev.json
+C:\Users\pablo\source\repos\Redes\Redes\bin\Debug\netcoreapp3.1\Redes.dll
+C:\Users\pablo\source\repos\Redes\Redes\bin\Debug\netcoreapp3.1\Redes.pdb
+C:\Users\pablo\source\repos\Redes\Redes\obj\Debug\netcoreapp3.1\Redes.csprojAssemblyReference.cache
+C:\Users\pablo\source\repos\Redes\Redes\obj\Debug\netcoreapp3.1\Redes.AssemblyInfoInputs.cache
+C:\Users\pablo\source\repos\Redes\Redes\obj\Debug\netcoreapp3.1\Redes.AssemblyInfo.cs
+C:\Users\pablo\source\repos\Redes\Redes\obj\Debug\netcoreapp3.1\Redes.dll
+C:\Users\pablo\source\repos\Redes\Redes\obj\Debug\netcoreapp3.1\Redes.pdb

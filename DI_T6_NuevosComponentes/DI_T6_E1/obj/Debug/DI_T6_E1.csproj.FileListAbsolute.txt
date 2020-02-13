@@ -1,0 +1,13 @@
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_E1\bin\Debug\DI_T6_E1.exe.config
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_E1\bin\Debug\DI_T6_E1.exe
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_E1\bin\Debug\DI_T6_E1.pdb
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_E1\bin\Debug\DI_T6_NuevosComponentes.dll
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_E1\bin\Debug\DI_T6_NuevosComponentes.pdb
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_E1\obj\Debug\DI_T6_E1.csprojAssemblyReference.cache
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_E1\obj\Debug\DI_T6_E1.Form1.resources
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_E1\obj\Debug\DI_T6_E1.lblTxt.resources
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_E1\obj\Debug\DI_T6_E1.Properties.Resources.resources
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_E1\obj\Debug\DI_T6_E1.csproj.GenerateResource.cache
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_E1\obj\Debug\DI_T6_E1.csproj.CopyComplete
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_E1\obj\Debug\DI_T6_E1.exe
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_E1\obj\Debug\DI_T6_E1.pdb

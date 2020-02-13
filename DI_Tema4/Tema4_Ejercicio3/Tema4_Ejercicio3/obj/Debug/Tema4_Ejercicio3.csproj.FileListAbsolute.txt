@@ -1,0 +1,10 @@
+C:\Users\pablo\source\repos\VisualStudio\Tema4_Ejercicio3\Tema4_Ejercicio3\bin\Debug\Tema4_Ejercicio3.exe.config
+C:\Users\pablo\source\repos\VisualStudio\Tema4_Ejercicio3\Tema4_Ejercicio3\bin\Debug\Tema4_Ejercicio3.exe
+C:\Users\pablo\source\repos\VisualStudio\Tema4_Ejercicio3\Tema4_Ejercicio3\bin\Debug\Tema4_Ejercicio3.pdb
+C:\Users\pablo\source\repos\VisualStudio\Tema4_Ejercicio3\Tema4_Ejercicio3\obj\Debug\Tema4_Ejercicio3.csprojAssemblyReference.cache
+C:\Users\pablo\source\repos\VisualStudio\Tema4_Ejercicio3\Tema4_Ejercicio3\obj\Debug\Tema4_Ejercicio3.formulario3.resources
+C:\Users\pablo\source\repos\VisualStudio\Tema4_Ejercicio3\Tema4_Ejercicio3\obj\Debug\Tema4_Ejercicio3.Form2.resources
+C:\Users\pablo\source\repos\VisualStudio\Tema4_Ejercicio3\Tema4_Ejercicio3\obj\Debug\Tema4_Ejercicio3.Properties.Resources.resources
+C:\Users\pablo\source\repos\VisualStudio\Tema4_Ejercicio3\Tema4_Ejercicio3\obj\Debug\Tema4_Ejercicio3.csproj.GenerateResource.cache
+C:\Users\pablo\source\repos\VisualStudio\Tema4_Ejercicio3\Tema4_Ejercicio3\obj\Debug\Tema4_Ejercicio3.exe
+C:\Users\pablo\source\repos\VisualStudio\Tema4_Ejercicio3\Tema4_Ejercicio3\obj\Debug\Tema4_Ejercicio3.pdb

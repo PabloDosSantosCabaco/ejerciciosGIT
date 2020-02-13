@@ -1,0 +1,9 @@
+C:\Users\pablo\source\repos\Repase_ej1\Archivos_5\bin\Debug\Archivos_5.exe.config
+C:\Users\pablo\source\repos\Repase_ej1\Archivos_5\bin\Debug\Archivos_5.exe
+C:\Users\pablo\source\repos\Repase_ej1\Archivos_5\bin\Debug\Archivos_5.pdb
+C:\Users\pablo\source\repos\Repase_ej1\Archivos_5\obj\Debug\Archivos_5.csprojAssemblyReference.cache
+C:\Users\pablo\source\repos\Repase_ej1\Archivos_5\obj\Debug\Archivos_5.Form1.resources
+C:\Users\pablo\source\repos\Repase_ej1\Archivos_5\obj\Debug\Archivos_5.Properties.Resources.resources
+C:\Users\pablo\source\repos\Repase_ej1\Archivos_5\obj\Debug\Archivos_5.csproj.GenerateResource.cache
+C:\Users\pablo\source\repos\Repase_ej1\Archivos_5\obj\Debug\Archivos_5.exe
+C:\Users\pablo\source\repos\Repase_ej1\Archivos_5\obj\Debug\Archivos_5.pdb

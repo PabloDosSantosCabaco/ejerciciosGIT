@@ -1,0 +1,10 @@
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\SERV_T3_E1_Client\bin\Debug\SERV_T3_E1_Client.exe.config
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\SERV_T3_E1_Client\bin\Debug\SERV_T3_E1_Client.exe
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\SERV_T3_E1_Client\bin\Debug\SERV_T3_E1_Client.pdb
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\SERV_T3_E1_Client\obj\Debug\SERV_T3_E1_Client.csprojAssemblyReference.cache
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\SERV_T3_E1_Client\obj\Debug\SERV_T3_E1_Client.Properties.Resources.resources
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\SERV_T3_E1_Client\obj\Debug\SERV_T3_E1_Client.csproj.GenerateResource.cache
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\SERV_T3_E1_Client\obj\Debug\SERV_T3_E1_Client.exe
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\SERV_T3_E1_Client\obj\Debug\SERV_T3_E1_Client.pdb
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\SERV_T3_E1_Client\obj\Debug\SERV_T3_E1_Client.Cliente.resources
+C:\Users\pablo\source\repos\DI_T6_NuevosComponentes\SERV_T3_E1_Client\obj\Debug\SERV_T3_E1_Client.VentanaIP.resources

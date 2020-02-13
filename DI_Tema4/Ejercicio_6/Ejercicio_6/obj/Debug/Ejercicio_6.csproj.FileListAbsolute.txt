@@ -1,0 +1,11 @@
+C:\Users\Pablo\source\repos\Tema4\Ejercicio_6\bin\Debug\Ejercicio_6.exe.config
+C:\Users\Pablo\source\repos\Tema4\Ejercicio_6\bin\Debug\Ejercicio_6.exe
+C:\Users\Pablo\source\repos\Tema4\Ejercicio_6\bin\Debug\Ejercicio_6.pdb
+C:\Users\Pablo\source\repos\Tema4\Ejercicio_6\obj\Debug\Ejercicio_6.Form1.resources
+C:\Users\Pablo\source\repos\Tema4\Ejercicio_6\obj\Debug\Ejercicio_6.Form2.resources
+C:\Users\Pablo\source\repos\Tema4\Ejercicio_6\obj\Debug\Ejercicio_6.Properties.Resources.resources
+C:\Users\Pablo\source\repos\Tema4\Ejercicio_6\obj\Debug\Ejercicio_6.csproj.GenerateResource.cache
+C:\Users\Pablo\source\repos\Tema4\Ejercicio_6\obj\Debug\Ejercicio_6.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\source\repos\Tema4\Ejercicio_6\obj\Debug\Ejercicio_6.exe
+C:\Users\Pablo\source\repos\Tema4\Ejercicio_6\obj\Debug\Ejercicio_6.pdb
+C:\Users\Pablo\source\repos\Tema4\Ejercicio_6\obj\Debug\Ejercicio_6.csprojAssemblyReference.cache

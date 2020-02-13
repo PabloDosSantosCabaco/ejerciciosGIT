@@ -1,0 +1,9 @@
+C:\Users\pablo\source\repos\DI_2Trimestre\T4_E8\bin\Debug\T4_E8.exe.config
+C:\Users\pablo\source\repos\DI_2Trimestre\T4_E8\bin\Debug\T4_E8.exe
+C:\Users\pablo\source\repos\DI_2Trimestre\T4_E8\bin\Debug\T4_E8.pdb
+C:\Users\pablo\source\repos\DI_2Trimestre\T4_E8\obj\Debug\T4_E8.csprojAssemblyReference.cache
+C:\Users\pablo\source\repos\DI_2Trimestre\T4_E8\obj\Debug\T4_E8.Form1.resources
+C:\Users\pablo\source\repos\DI_2Trimestre\T4_E8\obj\Debug\T4_E8.Properties.Resources.resources
+C:\Users\pablo\source\repos\DI_2Trimestre\T4_E8\obj\Debug\T4_E8.csproj.GenerateResource.cache
+C:\Users\pablo\source\repos\DI_2Trimestre\T4_E8\obj\Debug\T4_E8.exe
+C:\Users\pablo\source\repos\DI_2Trimestre\T4_E8\obj\Debug\T4_E8.pdb

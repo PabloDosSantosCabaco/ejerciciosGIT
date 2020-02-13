@@ -1,0 +1,6 @@
+C:\Users\pablo\source\repos\Repase_ej1\Repase_ej1\bin\Debug\Repase_ej1.exe.config
+C:\Users\pablo\source\repos\Repase_ej1\Repase_ej1\bin\Debug\Repase_ej1.exe
+C:\Users\pablo\source\repos\Repase_ej1\Repase_ej1\bin\Debug\Repase_ej1.pdb
+C:\Users\pablo\source\repos\Repase_ej1\Repase_ej1\obj\Debug\Repase_ej1.csprojAssemblyReference.cache
+C:\Users\pablo\source\repos\Repase_ej1\Repase_ej1\obj\Debug\Repase_ej1.exe
+C:\Users\pablo\source\repos\Repase_ej1\Repase_ej1\obj\Debug\Repase_ej1.pdb
