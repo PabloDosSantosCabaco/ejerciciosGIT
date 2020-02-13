@@ -8,3 +8,13 @@ C:\Users\Pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_E2\obj\Debug\DI_T6_E2.
 C:\Users\Pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_E2\obj\Debug\DI_T6_E2.exe
 C:\Users\Pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_E2\obj\Debug\DI_T6_E2.pdb
 C:\Users\Pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_E2\obj\Debug\DI_T6_E2.EtiquetaAviso.resources
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E2\bin\Debug\DI_T6_E2.exe.config
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E2\bin\Debug\DI_T6_E2.exe
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E2\bin\Debug\DI_T6_E2.pdb
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E2\obj\Debug\DI_T6_E2.csprojAssemblyReference.cache
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E2\obj\Debug\DI_T6_E2.EtiquetaAviso.resources
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E2\obj\Debug\DI_T6_E2.Form1.resources
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E2\obj\Debug\DI_T6_E2.Properties.Resources.resources
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E2\obj\Debug\DI_T6_E2.csproj.GenerateResource.cache
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E2\obj\Debug\DI_T6_E2.exe
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E2\obj\Debug\DI_T6_E2.pdb

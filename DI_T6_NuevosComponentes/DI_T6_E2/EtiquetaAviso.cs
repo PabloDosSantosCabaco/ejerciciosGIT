@@ -90,7 +90,7 @@ namespace DI_T6_E2
             get { return gradiente; }
         }
         [Category("FOO")]
-        [Description("Indica si muestra una cruz, un círculo o nada")]
+        [Description("Indica si muestra una cruz, un círculo, una imagen o nada")]
         public eMarca Marca
         {
             set
@@ -119,7 +119,7 @@ namespace DI_T6_E2
             //Cruz o un Círculo
             if (gradiente)
             {
-                LinearGradientBrush fondo = new LinearGradientBrush(new PointF(0,0),new PointF(this.Width,this.Height),ColorInicial,ColorFinal);
+                LinearGradientBrush fondo = new LinearGradientBrush(new PointF(0,0),new PointF(this.Width,0),ColorInicial,ColorFinal);
                 g.FillRectangle(fondo,new Rectangle(0,0,this.Width,this.Height));
             }
             switch (Marca)
