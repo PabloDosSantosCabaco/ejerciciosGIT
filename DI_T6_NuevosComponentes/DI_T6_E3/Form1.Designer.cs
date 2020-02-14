@@ -28,32 +28,71 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tiempoReproductor1 = new DI_T6_E3.TiempoReproductor();
+            this.btnPlay = new System.Windows.Forms.Button();
+            this.txtTime = new DI_T6_E3.TiempoReproductor();
+            this.lblImg = new System.Windows.Forms.Label();
+            this.btnDir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // tiempoReproductor1
+            // btnPlay
             // 
-            this.tiempoReproductor1.Location = new System.Drawing.Point(158, 66);
-            this.tiempoReproductor1.Name = "tiempoReproductor1";
-            this.tiempoReproductor1.Size = new System.Drawing.Size(106, 13);
-            this.tiempoReproductor1.TabIndex = 0;
-            this.tiempoReproductor1.Text = "tiempoReproductor1";
+            this.btnPlay.Location = new System.Drawing.Point(388, 372);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.Size = new System.Drawing.Size(75, 23);
+            this.btnPlay.TabIndex = 1;
+            this.btnPlay.Text = "button1";
+            this.btnPlay.UseVisualStyleBackColor = true;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
+            // 
+            // txtTime
+            // 
+            this.txtTime.Location = new System.Drawing.Point(317, 52);
+            this.txtTime.Name = "txtTime";
+            this.txtTime.Size = new System.Drawing.Size(106, 13);
+            this.txtTime.TabIndex = 0;
+            this.txtTime.Text = "tiempoReproductor1";
+            // 
+            // lblImg
+            // 
+            this.lblImg.AutoSize = true;
+            this.lblImg.Location = new System.Drawing.Point(356, 191);
+            this.lblImg.Name = "lblImg";
+            this.lblImg.Size = new System.Drawing.Size(35, 13);
+            this.lblImg.TabIndex = 2;
+            this.lblImg.Text = "label1";
+            // 
+            // btnDir
+            // 
+            this.btnDir.Location = new System.Drawing.Point(231, 372);
+            this.btnDir.Name = "btnDir";
+            this.btnDir.Size = new System.Drawing.Size(132, 23);
+            this.btnDir.TabIndex = 3;
+            this.btnDir.Text = "Seleccionar Directorio";
+            this.btnDir.UseVisualStyleBackColor = true;
+            this.btnDir.Click += new System.EventHandler(this.btnDir_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.tiempoReproductor1);
+            this.Controls.Add(this.btnDir);
+            this.Controls.Add(this.lblImg);
+            this.Controls.Add(this.btnPlay);
+            this.Controls.Add(this.txtTime);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private TiempoReproductor tiempoReproductor1;
+        private TiempoReproductor txtTime;
+        private System.Windows.Forms.Button btnPlay;
+        private System.Windows.Forms.Label lblImg;
+        private System.Windows.Forms.Button btnDir;
     }
 }
 

@@ -20,6 +20,7 @@ namespace SERV_T3_E3_Serve
         public Random rand = new Random();
         List<StreamWriter> clientes = new List<StreamWriter>();
         static readonly private object l = new object();
+        List<int> numeros = new List<int>();
 
         static void Main(string[] args)
         {
@@ -30,27 +31,17 @@ namespace SERV_T3_E3_Serve
             while (ej.running)
             {
                 Socket sCliente = ej.s.Accept();
+                
                 Thread hilo = new Thread(() =>
                     ej.newClient(sCliente)
                 );
                 hilo.Start();
-                if (ej.clientes.Count >= 2 && !ej.countStart)
-                {
-                    lock (l)
-                    {
-                        ej.countStart = true;
-                        Thread temporizador = new Thread(() =>
-                            ej.temporizador()
-                        );
-                        temporizador.Start();
-                    }
-                }
             }
         }
         public void temporizador()
         {
             int tiempo = 10;
-            while (tiempo > 0)
+            while (tiempo >= 0)
             {
                 Thread.Sleep(1000);
                 lock (l)
@@ -59,13 +50,25 @@ namespace SERV_T3_E3_Serve
                     {
                         sendToClients($"El juego comenzará en {tiempo} segundos.");
                         tiempo--;
+                        if (tiempo < 0)
+                        {
+                            Monitor.PulseAll(l);
+                        }
                     }
                 }
             }
         }
-        public void jugar()
+        public int getMaximo()
         {
-
+            int max = 0;
+            foreach (var num in numeros)
+            {
+                if (num > max)
+                {
+                    max = num;
+                }
+            }
+            return max;
         }
         public void sendToClients(string cad)
         {
@@ -74,6 +77,7 @@ namespace SERV_T3_E3_Serve
                 foreach (var sw in clientes)
                 {
                     sw.WriteLine(cad);
+                    sw.Flush();
                 }
             }
         }
@@ -81,12 +85,31 @@ namespace SERV_T3_E3_Serve
         {
             lock (l) { 
                 int num = rand.Next(0, 100);
+                numeros.Add(num);
                 bool conectado = true;
                 IPEndPoint ieClient = (IPEndPoint)sCliente.RemoteEndPoint;
                 NetworkStream ns = new NetworkStream(sCliente);
                 StreamReader sr = new StreamReader(ns);
                 StreamWriter sw = new StreamWriter(ns);
                 clientes.Add(sw);
+                if (clientes.Count >= 2 && !countStart)
+                {
+                    countStart = true;
+                    Thread temp = new Thread(() =>
+                        temporizador()
+                    );
+                    temp.Start();
+                }
+                Monitor.Wait(l);
+                if (getMaximo() == num)
+                {
+                    sw.WriteLine("Has gannado");
+                }
+                else
+                {
+                    sw.WriteLine($"Has perdido, tu número era el {num} y ha ganado {getMaximo()}");
+                }
+                sw.Flush();
             }
         }
         public void openServe()
