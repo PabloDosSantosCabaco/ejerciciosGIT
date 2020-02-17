@@ -10,3 +10,15 @@ C:\Users\Pablo\source\repos\DI_T6_NuevosComponentes\Principal\obj\Debug\Principa
 C:\Users\Pablo\source\repos\DI_T6_NuevosComponentes\Principal\obj\Debug\Principal.csproj.CopyComplete
 C:\Users\Pablo\source\repos\DI_T6_NuevosComponentes\Principal\obj\Debug\Principal.exe
 C:\Users\Pablo\source\repos\DI_T6_NuevosComponentes\Principal\obj\Debug\Principal.pdb
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\Principal\bin\Debug\Principal.exe.config
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\Principal\bin\Debug\Principal.exe
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\Principal\bin\Debug\Principal.pdb
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\Principal\bin\Debug\DI_T6_NuevosComponentes.dll
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\Principal\bin\Debug\DI_T6_NuevosComponentes.pdb
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\Principal\obj\Debug\Principal.csprojAssemblyReference.cache
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\Principal\obj\Debug\Principal.Form1.resources
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\Principal\obj\Debug\Principal.Properties.Resources.resources
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\Principal\obj\Debug\Principal.csproj.GenerateResource.cache
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\Principal\obj\Debug\Principal.csproj.CopyComplete
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\Principal\obj\Debug\Principal.exe
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\Principal\obj\Debug\Principal.pdb

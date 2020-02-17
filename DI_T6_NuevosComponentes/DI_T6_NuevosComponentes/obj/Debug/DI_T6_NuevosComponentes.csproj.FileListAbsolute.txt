@@ -5,3 +5,10 @@ C:\Users\Pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_NuevosComponentes\obj\
 C:\Users\Pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_NuevosComponentes\obj\Debug\DI_T6_NuevosComponentes.csproj.GenerateResource.cache
 C:\Users\Pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_NuevosComponentes\obj\Debug\DI_T6_NuevosComponentes.dll
 C:\Users\Pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_NuevosComponentes\obj\Debug\DI_T6_NuevosComponentes.pdb
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_NuevosComponentes\bin\Debug\DI_T6_NuevosComponentes.dll
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_NuevosComponentes\bin\Debug\DI_T6_NuevosComponentes.pdb
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_NuevosComponentes\obj\Debug\DI_T6_NuevosComponentes.csprojAssemblyReference.cache
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_NuevosComponentes\obj\Debug\DI_T6_NuevosComponentes.LabelTextBox.resources
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_NuevosComponentes\obj\Debug\DI_T6_NuevosComponentes.csproj.GenerateResource.cache
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_NuevosComponentes\obj\Debug\DI_T6_NuevosComponentes.dll
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_NuevosComponentes\obj\Debug\DI_T6_NuevosComponentes.pdb
