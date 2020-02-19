@@ -6,3 +6,7 @@ C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\SERV_T3_E4_Client\obj\D
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\SERV_T3_E4_Client\obj\Debug\SERV_T3_E4_Client.csproj.GenerateResource.cache
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\SERV_T3_E4_Client\obj\Debug\SERV_T3_E4_Client.exe
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\SERV_T3_E4_Client\obj\Debug\SERV_T3_E4_Client.pdb
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\SERV_T3_E4_Client\bin\Debug\DI_T6_NuevosComponentes.dll
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\SERV_T3_E4_Client\bin\Debug\DI_T6_NuevosComponentes.pdb
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\SERV_T3_E4_Client\obj\Debug\SERV_T3_E4_Client.Form1.resources
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\SERV_T3_E4_Client\obj\Debug\SERV_T3_E4_Client.csproj.CopyComplete

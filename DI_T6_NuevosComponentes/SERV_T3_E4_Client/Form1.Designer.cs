@@ -30,6 +30,10 @@
         {
             this.btnEnviar = new System.Windows.Forms.Button();
             this.txtLetra = new System.Windows.Forms.TextBox();
+            this.btnPalabra = new System.Windows.Forms.Button();
+            this.btnRecords = new System.Windows.Forms.Button();
+            this.lblTextos = new System.Windows.Forms.Label();
+            this.btnNuevoJuego = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnEnviar
@@ -48,11 +52,53 @@
             this.txtLetra.Size = new System.Drawing.Size(100, 20);
             this.txtLetra.TabIndex = 1;
             // 
+            // btnPalabra
+            // 
+            this.btnPalabra.Location = new System.Drawing.Point(387, 51);
+            this.btnPalabra.Name = "btnPalabra";
+            this.btnPalabra.Size = new System.Drawing.Size(75, 23);
+            this.btnPalabra.TabIndex = 2;
+            this.btnPalabra.Text = "Palabra";
+            this.btnPalabra.UseVisualStyleBackColor = true;
+            this.btnPalabra.Click += new System.EventHandler(this.btnPalabra_Click);
+            // 
+            // btnRecords
+            // 
+            this.btnRecords.Location = new System.Drawing.Point(387, 106);
+            this.btnRecords.Name = "btnRecords";
+            this.btnRecords.Size = new System.Drawing.Size(75, 23);
+            this.btnRecords.TabIndex = 3;
+            this.btnRecords.Text = "Records";
+            this.btnRecords.UseVisualStyleBackColor = true;
+            // 
+            // lblTextos
+            // 
+            this.lblTextos.AutoSize = true;
+            this.lblTextos.Location = new System.Drawing.Point(387, 162);
+            this.lblTextos.Name = "lblTextos";
+            this.lblTextos.Size = new System.Drawing.Size(35, 13);
+            this.lblTextos.TabIndex = 4;
+            this.lblTextos.Text = "label1";
+            // 
+            // btnNuevoJuego
+            // 
+            this.btnNuevoJuego.Location = new System.Drawing.Point(347, 366);
+            this.btnNuevoJuego.Name = "btnNuevoJuego";
+            this.btnNuevoJuego.Size = new System.Drawing.Size(99, 23);
+            this.btnNuevoJuego.TabIndex = 5;
+            this.btnNuevoJuego.Text = "Nuevo Juego";
+            this.btnNuevoJuego.UseVisualStyleBackColor = true;
+            this.btnNuevoJuego.Click += new System.EventHandler(this.btnNuevoJuego_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnNuevoJuego);
+            this.Controls.Add(this.lblTextos);
+            this.Controls.Add(this.btnRecords);
+            this.Controls.Add(this.btnPalabra);
             this.Controls.Add(this.txtLetra);
             this.Controls.Add(this.btnEnviar);
             this.Name = "Form1";
@@ -66,6 +112,10 @@
 
         private System.Windows.Forms.Button btnEnviar;
         private System.Windows.Forms.TextBox txtLetra;
+        private System.Windows.Forms.Button btnPalabra;
+        private System.Windows.Forms.Button btnRecords;
+        private System.Windows.Forms.Label lblTextos;
+        private System.Windows.Forms.Button btnNuevoJuego;
     }
 }
 

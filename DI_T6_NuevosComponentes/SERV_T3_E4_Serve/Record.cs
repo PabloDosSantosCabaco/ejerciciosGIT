@@ -26,13 +26,27 @@ namespace SERV_T3_E4_Serve
             this.score = score;
             this.name = name;
         }
-        public int getScore()
+        public int Score
         {
-            return score;
+            set
+            {
+                score = value;
+            }
+            get
+            {
+                return score;
+            }
         }
-        public string getName()
+        public string Name
         {
-            return name;
+            set
+            {
+                name = value;
+            }
+            get
+            {
+                return name;
+            }
         }
     }
 }
