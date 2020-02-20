@@ -34,6 +34,7 @@
             this.btnRecords = new System.Windows.Forms.Button();
             this.lblTextos = new System.Windows.Forms.Label();
             this.btnNuevoJuego = new System.Windows.Forms.Button();
+            this.lstRecords = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // btnEnviar
@@ -44,6 +45,7 @@
             this.btnEnviar.TabIndex = 0;
             this.btnEnviar.Text = "Enviar";
             this.btnEnviar.UseVisualStyleBackColor = true;
+            this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
             // 
             // txtLetra
             // 
@@ -70,6 +72,7 @@
             this.btnRecords.TabIndex = 3;
             this.btnRecords.Text = "Records";
             this.btnRecords.UseVisualStyleBackColor = true;
+            this.btnRecords.Click += new System.EventHandler(this.btnRecords_Click);
             // 
             // lblTextos
             // 
@@ -90,11 +93,20 @@
             this.btnNuevoJuego.UseVisualStyleBackColor = true;
             this.btnNuevoJuego.Click += new System.EventHandler(this.btnNuevoJuego_Click);
             // 
+            // lstRecords
+            // 
+            this.lstRecords.FormattingEnabled = true;
+            this.lstRecords.Location = new System.Drawing.Point(497, 106);
+            this.lstRecords.Name = "lstRecords";
+            this.lstRecords.Size = new System.Drawing.Size(120, 95);
+            this.lstRecords.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lstRecords);
             this.Controls.Add(this.btnNuevoJuego);
             this.Controls.Add(this.lblTextos);
             this.Controls.Add(this.btnRecords);
@@ -103,6 +115,7 @@
             this.Controls.Add(this.btnEnviar);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -116,6 +129,7 @@
         private System.Windows.Forms.Button btnRecords;
         private System.Windows.Forms.Label lblTextos;
         private System.Windows.Forms.Button btnNuevoJuego;
+        private System.Windows.Forms.ListBox lstRecords;
     }
 }
 

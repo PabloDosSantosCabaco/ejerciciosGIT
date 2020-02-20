@@ -70,11 +70,24 @@ namespace SERV_T3_E4_Serve
             Console.WriteLine("Cliente conectado");
             while (clientConnected)
             {
-                switch (sr.ReadLine())
+                string peticion = sr.ReadLine();
+                switch (peticion)
                 {
                     case "word":
                         Console.WriteLine("He leido");
                         sw.WriteLine(getword());
+                        break;
+                    case "cierre":
+                        Console.WriteLine("El cliente se ha desconectado");
+                        clientConnected = false;
+                        break;
+                    case "record":
+                        foreach(var recor in records)
+                        {
+                            sw.WriteLine(recor.Name);
+                            sw.WriteLine(recor.Score);
+                        }
+                        sw.Flush();
                         break;
                 }
                 sw.Flush();
@@ -109,8 +122,6 @@ namespace SERV_T3_E4_Serve
                     }
                 }
                 palabras.Add("Hola");
-                palabras.Add("Hola");
-                palabras.Add("Hola");
             }
             catch (FileNotFoundException)
             {
@@ -121,27 +132,42 @@ namespace SERV_T3_E4_Serve
         {
             try
             {
-                using (StreamReader sr = new StreamReader(Environment.GetEnvironmentVariable("appdata") + "/recordsAhorcado"))
+                if (File.Exists(Environment.GetEnvironmentVariable("appdata") + "/recordsAhorcado"))
                 {
-                    while (sr.Peek() > -1 && records.Count < maximoRecords)
+                    using (StreamReader sr = new StreamReader(Environment.GetEnvironmentVariable("appdata") + "/recordsAhorcado"))
                     {
-                        try
+                        while (sr.Peek() > -1 && records.Count < maximoRecords)
                         {
-                            records.Add(new Record(sr.Read(), sr.ReadLine()));
-                        }
-                        catch (IOException)
-                        {
+                            try
+                            {
+                                records.Add(new Record(sr.Read(), sr.ReadLine()));
+                            }
+                            catch (IOException)
+                            {
 
+                            }
                         }
                     }
                 }
+                else
+                {
+                    using (StreamWriter sw = new StreamWriter(Environment.GetEnvironmentVariable("appdata") + "/recordsAhorcado"))
+                    {
+                        Console.WriteLine("No existe");
+                        foreach (var recor in records)
+                        {
+                            sw.WriteLine(recor);
+                        }
+                    }
+                }
+                records.Add(new Record());
             }
             catch (FileNotFoundException) { }
         }
         public string getword()
         {
-            Random num = new Random(palabras.Count-1);
-            return palabras[0];
+            Random num = new Random();
+            return palabras[num.Next(0, palabras.Count - 1)];
         }
         public void sendword(string word)
         {
