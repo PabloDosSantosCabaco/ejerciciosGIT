@@ -28,24 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.etiquetaAviso1 = new DI_T6_E2.EtiquetaAviso();
             this.btnGrad = new System.Windows.Forms.Button();
             this.cmbBox = new System.Windows.Forms.ComboBox();
+            this.etiquetaAviso1 = new DI_T6_E2.EtiquetaAviso();
             this.SuspendLayout();
-            // 
-            // etiquetaAviso1
-            // 
-            this.etiquetaAviso1.ColorFinal = System.Drawing.Color.Black;
-            this.etiquetaAviso1.ColorInicial = System.Drawing.Color.Red;
-            this.etiquetaAviso1.Gradiente = true;
-            this.etiquetaAviso1.ImagenMarca = global::DI_T6_E2.Properties.Resources.zoe;
-            this.etiquetaAviso1.Location = new System.Drawing.Point(219, 138);
-            this.etiquetaAviso1.Marca = DI_T6_E2.EtiquetaAviso.eMarca.Imagen;
-            this.etiquetaAviso1.Name = "etiquetaAviso1";
-            this.etiquetaAviso1.Size = new System.Drawing.Size(214, 123);
-            this.etiquetaAviso1.TabIndex = 0;
-            this.etiquetaAviso1.Text = "etiquetaAviso1";
-            this.etiquetaAviso1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.EtiquetaAviso1_MouseClick);
             // 
             // btnGrad
             // 
@@ -65,6 +51,21 @@
             this.cmbBox.Size = new System.Drawing.Size(121, 21);
             this.cmbBox.TabIndex = 2;
             this.cmbBox.SelectedIndexChanged += new System.EventHandler(this.cmbBox_SelectedIndexChanged);
+            // 
+            // etiquetaAviso1
+            // 
+            this.etiquetaAviso1.ColorFinal = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.etiquetaAviso1.ColorInicial = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.etiquetaAviso1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.etiquetaAviso1.Gradiente = true;
+            this.etiquetaAviso1.ImagenMarca = global::DI_T6_E2.Properties.Resources.zoe;
+            this.etiquetaAviso1.Location = new System.Drawing.Point(80, 228);
+            this.etiquetaAviso1.Marca = DI_T6_E2.EtiquetaAviso.eMarca.Cruz;
+            this.etiquetaAviso1.Name = "etiquetaAviso1";
+            this.etiquetaAviso1.Size = new System.Drawing.Size(142, 24);
+            this.etiquetaAviso1.TabIndex = 0;
+            this.etiquetaAviso1.Text = "etiquetaAviso1";
+            this.etiquetaAviso1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.EtiquetaAviso1_MouseClick);
             // 
             // Form1
             // 

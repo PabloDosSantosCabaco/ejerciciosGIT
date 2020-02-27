@@ -42,7 +42,7 @@ namespace DI_T6_E2
             {
                 if(etiquetaAviso1.imagenMarca.Width>=e.X && etiquetaAviso1.imagenMarca.Height >= e.Y)
                 {
-                    etiquetaAviso1.ClickEnMarca();
+                    etiquetaAviso1.CickEnMarca();
                 }
             }
         }

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace DI_T6_E1
 {
-    public partial class lblTxt : UserControl
+    public partial class lblTxt : UserControl  //Eventos y passwordchar
     {
         public enum ePosicion
         {
@@ -19,19 +19,19 @@ namespace DI_T6_E1
         }
         private ePosicion posicion = ePosicion.DERECHA;
         private int separacion = 0;
-        private char pswChr;
-
+        private bool pswChr;
+        public event System.EventHandler TxtChanged;
         public lblTxt()
         {
             InitializeComponent();
             txt.Text = "";
             lbl.Text = "Etiqueta";
-            pswChr = txt.PasswordChar;
+            pswChr = false;
             recolocar();
         }
 
-        [Category ("Nuevos")]
-        [Description ("Indicia la separación que existe entre la etiqueta y la caja de texto.")]
+        [Category("Nuevos")]
+        [Description("Indicia la separación que existe entre la etiqueta y la caja de texto.")]
         public int Separacion
         {
             get
@@ -49,6 +49,19 @@ namespace DI_T6_E1
                 {
                     throw new ArgumentOutOfRangeException();
                 }
+            }
+        }
+        [Category("Nuevos")]
+        [Description("Establece si la contraseña se verá o no.")]
+        public bool PswChr
+        {
+            get
+            {
+                return pswChr;
+            }
+            set
+            {
+                pswChr = value;
             }
         }
         [Category ("Nuevos")]
@@ -130,11 +143,11 @@ namespace DI_T6_E1
 
         private void txt_TextChanged(object sender, EventArgs e)
         {
-            TxtChanged();
-        }
-        public void TxtChanged()
-        {
-
+            if (pswChr)
+            {
+                txt.PasswordChar = '*';
+            }
+            TxtChanged(sender, e);
         }
     }
 }

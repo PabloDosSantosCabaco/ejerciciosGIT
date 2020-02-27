@@ -1,8 +1,8 @@
-﻿namespace DI_T6_E3
+﻿namespace DI_T6_E4
 {
-    partial class TiempoReproductor
+    partial class DibujoAhorcado
     {
-        /// <summary> 
+        /// <summary>
         /// Variable del diseñador necesaria.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
@@ -22,7 +22,7 @@
 
         #region Código generado por el Diseñador de componentes
 
-        /// <summary> 
+        /// <summary>
         /// Método necesario para admitir el Diseñador. No se puede modificar
         /// el contenido de este método con el editor de código.
         /// </summary>

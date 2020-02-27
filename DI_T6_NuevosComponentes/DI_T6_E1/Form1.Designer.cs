@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnChange = new System.Windows.Forms.Button();
-            this.lblTxt = new DI_T6_E1.lblTxt();
-            this.txtSeparacion = new DI_T6_E1.lblTxt();
             this.btnSep = new System.Windows.Forms.Button();
+            this.txtSeparacion = new DI_T6_E1.lblTxt();
+            this.main = new DI_T6_E1.lblTxt();
             this.SuspendLayout();
             // 
             // btnChange
@@ -45,29 +45,6 @@
             this.btnChange.UseVisualStyleBackColor = true;
             this.btnChange.Click += new System.EventHandler(this.btnChange_Click);
             // 
-            // lblTxt
-            // 
-            this.lblTxt.Location = new System.Drawing.Point(12, 12);
-            this.lblTxt.Name = "lblTxt";
-            this.lblTxt.Posicion = DI_T6_E1.lblTxt.ePosicion.IZQUIERDA;
-            this.lblTxt.Separacion = 0;
-            this.lblTxt.Size = new System.Drawing.Size(196, 20);
-            this.lblTxt.TabIndex = 1;
-            this.lblTxt.TextLabel = "Etiqueta";
-            this.lblTxt.TextTxt = "";
-            this.lblTxt.KeyUp += new System.Windows.Forms.KeyEventHandler(this.lblTxt_KeyUp);
-            // 
-            // txtSeparacion
-            // 
-            this.txtSeparacion.Location = new System.Drawing.Point(12, 95);
-            this.txtSeparacion.Name = "txtSeparacion";
-            this.txtSeparacion.Posicion = DI_T6_E1.lblTxt.ePosicion.IZQUIERDA;
-            this.txtSeparacion.Separacion = 0;
-            this.txtSeparacion.Size = new System.Drawing.Size(161, 20);
-            this.txtSeparacion.TabIndex = 2;
-            this.txtSeparacion.TextLabel = "Separación";
-            this.txtSeparacion.TextTxt = "";
-            // 
             // btnSep
             // 
             this.btnSep.Location = new System.Drawing.Point(61, 130);
@@ -78,14 +55,40 @@
             this.btnSep.UseVisualStyleBackColor = true;
             this.btnSep.Click += new System.EventHandler(this.btnSep_Click);
             // 
+            // txtSeparacion
+            // 
+            this.txtSeparacion.Location = new System.Drawing.Point(12, 95);
+            this.txtSeparacion.Name = "txtSeparacion";
+            this.txtSeparacion.Posicion = DI_T6_E1.lblTxt.ePosicion.IZQUIERDA;
+            this.txtSeparacion.PswChr = false;
+            this.txtSeparacion.Separacion = 0;
+            this.txtSeparacion.Size = new System.Drawing.Size(161, 20);
+            this.txtSeparacion.TabIndex = 2;
+            this.txtSeparacion.TextLabel = "Separación";
+            this.txtSeparacion.TextTxt = "";
+            // 
+            // main
+            // 
+            this.main.Location = new System.Drawing.Point(12, 12);
+            this.main.Name = "main";
+            this.main.Posicion = DI_T6_E1.lblTxt.ePosicion.IZQUIERDA;
+            this.main.PswChr = false;
+            this.main.Separacion = 0;
+            this.main.Size = new System.Drawing.Size(131, 20);
+            this.main.TabIndex = 4;
+            this.main.TextLabel = "dddd";
+            this.main.TextTxt = "";
+            this.main.TxtChanged += new System.EventHandler(this.lblTxt_TxtChanged);
+            this.main.KeyUp += new System.Windows.Forms.KeyEventHandler(this.main_KeyUp);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.main);
             this.Controls.Add(this.btnSep);
             this.Controls.Add(this.txtSeparacion);
-            this.Controls.Add(this.lblTxt);
             this.Controls.Add(this.btnChange);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -97,9 +100,9 @@
         #endregion
 
         private System.Windows.Forms.Button btnChange;
-        private lblTxt lblTxt;
         private lblTxt txtSeparacion;
         private System.Windows.Forms.Button btnSep;
+        private lblTxt main;
     }
 }
 

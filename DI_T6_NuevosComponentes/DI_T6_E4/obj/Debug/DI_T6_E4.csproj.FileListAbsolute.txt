@@ -1,0 +1,9 @@
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E4\bin\Debug\DI_T6_E4.exe.config
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E4\bin\Debug\DI_T6_E4.exe
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E4\bin\Debug\DI_T6_E4.pdb
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E4\obj\Debug\DI_T6_E4.Form1.resources
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E4\obj\Debug\DI_T6_E4.Properties.Resources.resources
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E4\obj\Debug\DI_T6_E4.csproj.GenerateResource.cache
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E4\obj\Debug\DI_T6_E4.exe
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E4\obj\Debug\DI_T6_E4.pdb
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E4\obj\Debug\DI_T6_E4.csprojAssemblyReference.cache

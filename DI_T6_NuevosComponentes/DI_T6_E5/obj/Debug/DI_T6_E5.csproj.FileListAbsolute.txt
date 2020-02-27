@@ -1,0 +1,10 @@
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E5\bin\Debug\DI_T6_E5.exe.config
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E5\bin\Debug\DI_T6_E5.exe
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E5\bin\Debug\DI_T6_E5.pdb
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E5\obj\Debug\DI_T6_E5.csprojAssemblyReference.cache
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E5\obj\Debug\DI_T6_E5.Properties.Resources.resources
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E5\obj\Debug\DI_T6_E5.ValidateTextBox.resources
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E5\obj\Debug\DI_T6_E5.csproj.GenerateResource.cache
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E5\obj\Debug\DI_T6_E5.exe
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E5\obj\Debug\DI_T6_E5.pdb
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E5\obj\Debug\DI_T6_E5.Form1.resources

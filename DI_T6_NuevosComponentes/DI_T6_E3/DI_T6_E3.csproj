@@ -54,11 +54,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TiempoReproductor.cs">
-      <SubType>Component</SubType>
+    <Compile Include="Reproductor.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="TiempoReproductor.Designer.cs">
-      <DependentUpon>TiempoReproductor.cs</DependentUpon>
+    <Compile Include="Reproductor.Designer.cs">
+      <DependentUpon>Reproductor.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -72,6 +72,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Reproductor.resx">
+      <DependentUpon>Reproductor.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

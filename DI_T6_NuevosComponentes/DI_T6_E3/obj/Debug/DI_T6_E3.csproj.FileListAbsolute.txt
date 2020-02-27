@@ -10,9 +10,9 @@ C:\Users\Pablo\source\repos\DI_T6_NuevosComponentes\DI_T6_E3\obj\Debug\DI_T6_E3.
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E3\bin\Debug\DI_T6_E3.exe.config
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E3\bin\Debug\DI_T6_E3.exe
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E3\bin\Debug\DI_T6_E3.pdb
-C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E3\obj\Debug\DI_T6_E3.csprojAssemblyReference.cache
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E3\obj\Debug\DI_T6_E3.Form1.resources
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E3\obj\Debug\DI_T6_E3.Properties.Resources.resources
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E3\obj\Debug\DI_T6_E3.csproj.GenerateResource.cache
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E3\obj\Debug\DI_T6_E3.exe
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E3\obj\Debug\DI_T6_E3.pdb
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E3\obj\Debug\DI_T6_E3.Reproductor.resources

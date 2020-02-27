@@ -26,7 +26,7 @@ namespace SERV_T3_E4_Client
 
         public Label[] letras;
         public string palabra = "";
-        public int vidas = 5;
+        public int vidas = 10;
         public bool jugando = false;
 
         int temporizador = 0;
@@ -89,6 +89,7 @@ namespace SERV_T3_E4_Client
         }
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
+            conectar();
             sw.WriteLine("cierre");
             sw.Flush();
         }
@@ -112,12 +113,14 @@ namespace SERV_T3_E4_Client
                 vidas--;
                 if (vidas <= 0)
                 {
+                    ahorcar();
                     lblTextos.Text = "Has perdido";
                 }
             }
             if (comprobarFinal())
             {
                 lblTextos.Text = "Ganaste"+temporizador;
+                jugando = false;
             }
         }
         public void construirPalabra(string palabra)
@@ -127,7 +130,7 @@ namespace SERV_T3_E4_Client
             {
                 Label lbl = new Label();
                 lbl.AutoSize = true;
-                lbl.Location = new System.Drawing.Point(50+(i*10), 116);
+                lbl.Location = new System.Drawing.Point(50+(i*20), 116);
                 lbl.Size = new System.Drawing.Size(35, 13);
                 lbl.TabIndex = 6;
                 lbl.Text = "_";
@@ -143,10 +146,14 @@ namespace SERV_T3_E4_Client
             sw.Flush();
             return sr.ReadLine();
         }
-
         public void ahorcar()
         {
+            switch (vidas)
+            {
+                case 9:
 
+                    break;
+            }
         }
         public bool comprobarFinal()
         {
@@ -174,6 +181,15 @@ namespace SERV_T3_E4_Client
                 }
             }
             return added;
+        }
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            base.OnPaint(e);
+            e.Graphics.DrawLine(new Pen(Color.Red, 5), 200, 400, 300, 400);
+        }
+        private void Form1_Paint(object sender, PaintEventArgs e)
+        {
+            
         }
 
     }

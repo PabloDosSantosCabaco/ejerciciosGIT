@@ -19,17 +19,17 @@ namespace DI_T6_E1
 
         private void btnChange_Click(object sender, EventArgs e)
         {
-            switch (lblTxt.Posicion)
+            switch (main.Posicion)
             {
                 case lblTxt.ePosicion.DERECHA:
-                    lblTxt.Posicion = lblTxt.ePosicion.IZQUIERDA;
+                    main.Posicion = lblTxt.ePosicion.IZQUIERDA;
                     break;
                 case lblTxt.ePosicion.IZQUIERDA:
-                    lblTxt.Posicion = lblTxt.ePosicion.DERECHA;
+                    main.Posicion = lblTxt.ePosicion.DERECHA;
                     break;
             }
-            lblTxt.recolocar();
-            this.Text = lblTxt.Posicion+"";
+            main.recolocar();
+            this.Text = main.Posicion+"";
         }
 
         private void btnSep_Click(object sender, EventArgs e)
@@ -39,18 +39,22 @@ namespace DI_T6_E1
                 try
                 {
                     int valor = Convert.ToInt32(txtSeparacion.TextTxt);
-                    lblTxt.Separacion = valor;
-                    lblTxt.recolocar();
+                    main.Separacion = valor;
+                    main.recolocar();
                 }
                 catch (OverflowException) { }
                 catch (FormatException) { }
             }
         }
 
-        private void lblTxt_KeyUp(object sender, KeyEventArgs e)
+        private void lblTxt_TxtChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void main_KeyUp(object sender, KeyEventArgs e)
         {
             this.Text = e.KeyCode + "";
         }
-        
     }
 }

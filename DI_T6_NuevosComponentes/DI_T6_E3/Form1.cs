@@ -6,6 +6,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -13,44 +14,12 @@ namespace DI_T6_E3
 {
     public partial class Form1 : Form
     {
-        private string[] estados = { "Play", "Pause" };
-        private bool play = false;
-        private int sec = 0;
-        private int min = 0;
+        private static readonly object l = new object();
         private List<string> imagenes = new List<string>();
+        int cont = 0;
         public Form1()
         {
             InitializeComponent();
-            btnPlay.Text = estados[0];
-        }
-        public void refreshTime()
-        {
-            sec++;
-            if (sec > 59)
-            {
-                DesbordaTiempo();
-            }
-        }
-        public void DesbordaTiempo()
-        {
-            sec = 0;
-            min++;
-            if (min > 99)
-            {
-                min = 0;
-            }
-        }
-        private void btnPlay_Click(object sender, EventArgs e)
-        {
-            if(!play)
-            {
-                btnPlay.Text = estados[1];
-            }
-            else
-            {
-                btnPlay.Text = estados[0];
-            }
-            play = !play;
         }
 
         private void btnDir_Click(object sender, EventArgs e)
@@ -61,7 +30,35 @@ namespace DI_T6_E3
                 {
                     string dir = fbd.SelectedPath;
                     DirectoryInfo di = new DirectoryInfo(fbd.SelectedPath);
-                    //di.GetFiles()
+                    imagenes.Clear();
+                    for(int i=0; i<di.GetFiles().Length; i++)
+                    {
+                        if (di.GetFiles()[i].Extension == ".png" || di.GetFiles()[i].Extension == ".jpg")
+                        {
+                            imagenes.Add(di.GetFiles()[i].FullName);
+                        }
+                    }
+                }
+            }
+        }
+
+        private void reproductor1_DesbordaTiempo(object sender, EventArgs e)
+        {
+            reproductor1.contMin = 0;
+        }
+
+        private void temporizador_Tick(object sender, EventArgs e)
+        {
+            if (reproductor1.running)
+            {
+                if (imagenes.Count > 0)
+                {
+                    pctBox.Image = System.Drawing.Image.FromFile(imagenes[cont]);
+                    cont++;
+                    if (cont >= imagenes.Count)
+                    {
+                        cont = 0;
+                    }
                 }
             }
         }

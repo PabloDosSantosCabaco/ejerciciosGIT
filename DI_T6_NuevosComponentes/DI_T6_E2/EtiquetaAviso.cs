@@ -160,7 +160,7 @@ namespace DI_T6_E2
             Size tam = g.MeasureString(this.Text, this.Font).ToSize();
             this.Size = new Size(tam.Width + offsetX + grosor, tam.Height + offsetY*2);
             b.Dispose();
-        }        public void ClickEnMarca()
+        }        public void ClickEnMarca()  // Evento
         {
             contador++;
             this.Text =$"Pulsado {contador} veces";
