@@ -28,16 +28,19 @@ namespace DI_T6_E3
             {
                 if(DialogResult.OK == fbd.ShowDialog())
                 {
-                    string dir = fbd.SelectedPath;
-                    DirectoryInfo di = new DirectoryInfo(fbd.SelectedPath);
-                    imagenes.Clear();
-                    for(int i=0; i<di.GetFiles().Length; i++)
+                    try
                     {
-                        if (di.GetFiles()[i].Extension == ".png" || di.GetFiles()[i].Extension == ".jpg")
+                        string dir = fbd.SelectedPath;
+                        DirectoryInfo di = new DirectoryInfo(fbd.SelectedPath);
+                        imagenes.Clear();
+                        for (int i = 0; i < di.GetFiles().Length; i++)
                         {
-                            imagenes.Add(di.GetFiles()[i].FullName);
+                            if (di.GetFiles()[i].Extension == ".png" || di.GetFiles()[i].Extension == ".jpg")
+                            {
+                                imagenes.Add(di.GetFiles()[i].FullName);
+                            }
                         }
-                    }
+                    }catch(Exception ex) { }
                 }
             }
         }
