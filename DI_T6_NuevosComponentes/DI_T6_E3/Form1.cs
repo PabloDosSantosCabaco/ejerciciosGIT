@@ -54,12 +54,25 @@ namespace DI_T6_E3
                 reproductor1.YY++;
                 if (imagenes.Count > 0)
                 {
-                    pctBox.Image = System.Drawing.Image.FromFile(imagenes[cont]);
-                    cont++;
-                    if (cont >= imagenes.Count)
+                    bool imagenMostrada = false;
+                    while (!imagenMostrada)
                     {
-                        cont = 0;
+                        try
+                        {
+                            pctBox.Image = System.Drawing.Image.FromFile(imagenes[cont]);
+                            imagenMostrada = true;
+                        }
+                        catch (Exception ex)
+                        {
+
+                        }
+                        cont++;
+                        if (cont >= imagenes.Count)
+                        {
+                            cont = 0;
+                        }
                     }
+                    
                 }
             }
         }

@@ -76,8 +76,11 @@ namespace SERV_T3_E3_Serve
             {
                 foreach (var sw in clientes)
                 {
-                    sw.WriteLine(cad);
-                    sw.Flush();
+                    try
+                    {
+                        sw.WriteLine(cad);
+                        sw.Flush();
+                    }catch(IOException ex) { }
                 }
             }
         }
@@ -101,15 +104,18 @@ namespace SERV_T3_E3_Serve
                     temp.Start();
                 }
                 Monitor.Wait(l);
-                if (getMaximo() == num)
+                try
                 {
-                    sw.WriteLine("Has gannado");
-                }
-                else
-                {
-                    sw.WriteLine($"Has perdido, tu número era el {num} y ha ganado {getMaximo()}");
-                }
-                sw.Flush();
+                    if (getMaximo() == num)
+                    {
+                        sw.WriteLine("Has gannado");
+                    }
+                    else
+                    {
+                        sw.WriteLine($"Has perdido, tu número era el {num} y ha ganado {getMaximo()}");
+                    }
+                    sw.Flush();
+                }catch(IOException ex) { }
             }
         }
         public void openServe()
