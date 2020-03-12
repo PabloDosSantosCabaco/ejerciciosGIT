@@ -28,24 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.validateTextBox1 = new DI_T6_E5.ValidateTextBox();
             this.SuspendLayout();
-            // 
-            // validateTextBox1
-            // 
-            this.validateTextBox1.Location = new System.Drawing.Point(48, 39);
-            this.validateTextBox1.Multilinea = false;
-            this.validateTextBox1.Name = "validateTextBox1";
-            this.validateTextBox1.Size = new System.Drawing.Size(120, 40);
-            this.validateTextBox1.TabIndex = 0;
-            this.validateTextBox1.Texto = "";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.validateTextBox1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -53,8 +42,6 @@
         }
 
         #endregion
-
-        private ValidateTextBox validateTextBox1;
     }
 }
 

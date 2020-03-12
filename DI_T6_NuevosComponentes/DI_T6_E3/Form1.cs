@@ -44,13 +44,14 @@ namespace DI_T6_E3
 
         private void reproductor1_DesbordaTiempo(object sender, EventArgs e)
         {
-            reproductor1.contMin = 0;
+            reproductor1.XX++;
         }
 
         private void temporizador_Tick(object sender, EventArgs e)
         {
             if (reproductor1.running)
             {
+                reproductor1.YY++;
                 if (imagenes.Count > 0)
                 {
                     pctBox.Image = System.Drawing.Image.FromFile(imagenes[cont]);

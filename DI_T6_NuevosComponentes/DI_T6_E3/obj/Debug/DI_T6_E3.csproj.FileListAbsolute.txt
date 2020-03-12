@@ -16,3 +16,4 @@ C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E3\obj\Debug\DI_T
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E3\obj\Debug\DI_T6_E3.exe
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E3\obj\Debug\DI_T6_E3.pdb
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E3\obj\Debug\DI_T6_E3.Reproductor.resources
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_E3\obj\Debug\DI_T6_E3.csprojAssemblyReference.cache

@@ -62,7 +62,7 @@ namespace SERV_T3_E2_Serve
                                 conectado = false;
                                 break;
                             case "#lista":
-                                showList();
+                                showList(sw);
                                 break;
                             default:
                                 sendMessages(usuario + "@" + ieClient.Address + ":"+mensaje,sw);
@@ -84,6 +84,10 @@ namespace SERV_T3_E2_Serve
             sendMessages("Client disconnected:"+ usuario + "@" + ieClient.Address + " at port "+ ieClient.Port, sw);
             usuarios.Remove(usuario + "@" + ieClient.Address);
             destinos.Remove(sw);
+            sw.Close();
+            sr.Close();
+            ns.Close();
+            sClient.Close();
         }
         public void sendMessages(string mensaje,StreamWriter sw)
         {
@@ -96,22 +100,16 @@ namespace SERV_T3_E2_Serve
                 }
             }
         }
-        public void showList()
+        public void showList(StreamWriter swd)
         {
-            Console.WriteLine("Usuarios conectados");
-            Console.WriteLine("*********************");
-            foreach (string usuario  in usuarios)
+            swd.WriteLine("Usuarios conectados");
+            swd.WriteLine("*********************");
+            foreach (string usuario in usuarios)
             {
-                Console.WriteLine(usuario);
+                swd.WriteLine(usuario);
             }
-            Console.WriteLine("*********************");
-        }
-        public void clientDisconnection()
-        {
-            /*sw.Close();
-            sr.Close();
-            ns.Close();
-            sClient.Close();*/
+            swd.WriteLine("*********************");
+            swd.Flush();
         }
         public void openServe()
         {
@@ -124,3 +122,4 @@ namespace SERV_T3_E2_Serve
         }
     }
 }
+// Locks y puerto ocupado

@@ -41,6 +41,18 @@ namespace SERV_T3_E1_Client
                 {
                     return false;
                 }
+                Socket s = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                try
+                {
+                    s.Bind(new IPEndPoint(IPAddress.Any, Convert.ToInt32(txtPuerto.Text)));
+                    Console.WriteLine($"Port {Convert.ToInt32(txtPuerto.Text)} free");
+                }
+                catch (SocketException e) when (e.ErrorCode == (int)SocketError.AddressAlreadyInUse)
+                {
+                    Console.WriteLine($"Port {Convert.ToInt32(txtPuerto.Text)} in use");
+                    return false;
+                }
+                s.Close();
                 return true;
             }
             catch (SocketException ex)

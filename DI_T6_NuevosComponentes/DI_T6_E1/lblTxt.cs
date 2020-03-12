@@ -53,15 +53,15 @@ namespace DI_T6_E1
         }
         [Category("Nuevos")]
         [Description("Establece si la contraseña se verá o no.")]
-        public bool PswChr
+        public char PswChr
         {
             get
             {
-                return pswChr;
+                return this.txt.PasswordChar;
             }
             set
             {
-                pswChr = value;
+                this.txt.PasswordChar = value;
             }
         }
         [Category ("Nuevos")]
@@ -140,14 +140,9 @@ namespace DI_T6_E1
         {
             this.OnKeyUp(e);
         }
-
         private void txt_TextChanged(object sender, EventArgs e)
         {
-            if (pswChr)
-            {
-                txt.PasswordChar = '*';
-            }
-            TxtChanged(sender, e);
+            TxtChanged?.Invoke(sender, e);
         }
     }
 }

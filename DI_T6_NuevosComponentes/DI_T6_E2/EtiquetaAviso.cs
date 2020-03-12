@@ -27,6 +27,9 @@ namespace DI_T6_E2
         public Color colorInicial, colorFinal;
         private int imgAncho = 0, imgAlto = 0;
         private int contador = 0;
+        public event System.EventHandler ClickEnMarca;
+        private int posXimg = 0;
+        private int posYimg = 0;
 
         public EtiquetaAviso()
         {
@@ -147,7 +150,9 @@ namespace DI_T6_E2
                 case eMarca.Imagen:
                     if (imagenMarca != null)
                     {
-                        g.DrawImage(imagenMarca, offsetX, offsetY, imagenMarca.Width, imagenMarca.Height);
+                        posXimg = offsetX;
+                        posYimg = offsetY;
+                        g.DrawImage(imagenMarca, posXimg, posYimg, imagenMarca.Width, imagenMarca.Height);
                         offsetY = imagenMarca.Height/2-this.Font.Height;
                         offsetX = imagenMarca.Width;
                        
@@ -160,12 +165,17 @@ namespace DI_T6_E2
             Size tam = g.MeasureString(this.Text, this.Font).ToSize();
             this.Size = new Size(tam.Width + offsetX + grosor, tam.Height + offsetY*2);
             b.Dispose();
-        }        public void ClickEnMarca()  // Evento
+        }        protected override void OnClick(EventArgs e)
         {
-            contador++;
-            this.Text =$"Pulsado {contador} veces";
-            Refresh();
-        }
+            base.OnClick(e);
+            if (((MouseEventArgs)e).X >= posXimg && ((MouseEventArgs)e).X <= posXimg+imagenMarca.Width &&
+                ((MouseEventArgs)e).Y >= posYimg && ((MouseEventArgs)e).Y < posYimg+imagenMarca.Height &&
+                Marca != eMarca.Nada)
+            {
+                ClickEnMarca?.Invoke(this, EventArgs.Empty);
+            }
+
+        }       
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
             base.OnTextChanged(e);

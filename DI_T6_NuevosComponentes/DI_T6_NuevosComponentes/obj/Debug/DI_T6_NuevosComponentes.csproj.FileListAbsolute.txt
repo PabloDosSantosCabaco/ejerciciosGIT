@@ -11,3 +11,4 @@ C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_NuevosComponentes
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_NuevosComponentes\obj\Debug\DI_T6_NuevosComponentes.csproj.GenerateResource.cache
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_NuevosComponentes\obj\Debug\DI_T6_NuevosComponentes.dll
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_NuevosComponentes\obj\Debug\DI_T6_NuevosComponentes.pdb
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\DI_T6_NuevosComponentes\obj\Debug\DI_T6_NuevosComponentes.csprojAssemblyReference.cache

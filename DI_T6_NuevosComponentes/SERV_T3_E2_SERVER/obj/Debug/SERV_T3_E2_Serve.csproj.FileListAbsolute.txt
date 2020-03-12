@@ -9,3 +9,4 @@ C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\SERV_T3_E2_SERVER\bin\D
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\SERV_T3_E2_SERVER\bin\Debug\SERV_T3_E2_SERVER.pdb
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\SERV_T3_E2_SERVER\obj\Debug\SERV_T3_E2_SERVER.exe
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\SERV_T3_E2_SERVER\obj\Debug\SERV_T3_E2_SERVER.pdb
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\SERV_T3_E2_SERVER\obj\Debug\SERV_T3_E2_Serve.csprojAssemblyReference.cache

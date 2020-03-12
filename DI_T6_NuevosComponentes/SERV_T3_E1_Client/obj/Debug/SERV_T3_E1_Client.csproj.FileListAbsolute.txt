@@ -17,3 +17,4 @@ C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\SERV_T3_E1_Client\obj\D
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\SERV_T3_E1_Client\obj\Debug\SERV_T3_E1_Client.csproj.GenerateResource.cache
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\SERV_T3_E1_Client\obj\Debug\SERV_T3_E1_Client.exe
 C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\SERV_T3_E1_Client\obj\Debug\SERV_T3_E1_Client.pdb
+C:\Users\pablo\source\carpetaGIT\DI_T6_NuevosComponentes\SERV_T3_E1_Client\obj\Debug\SERV_T3_E1_Client.csprojAssemblyReference.cache

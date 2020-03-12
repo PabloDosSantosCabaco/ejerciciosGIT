@@ -12,57 +12,73 @@ namespace DI_T6_E3
 {
     public partial class Reproductor : UserControl
     {
-        int contSec = 0;
-        public int contMin = 0;
+        int xx = 0;
+        [Category("Otros")]
+        [Description("Representa los minutos del reproductor.")]
+        public int XX
+        {
+            get
+            {
+                return xx;
+            }
+            set
+            {
+                if (this.xx > 99)
+                {
+                    this.xx = 0;
+                }
+                else
+                {
+                    this.xx = value;
+                }
+                lblTime.Text = String.Format("{0,2:D2}:{1,2:D2}", XX, YY);
+                this.Refresh();
+            }
+        }
+        int yy = 0;
+        [Category("Otros")]
+        [Description("Representa los segundos del reproductor.")]
+        public int YY
+        {
+            get
+            {
+                return yy;
+            }
+            set
+            {
+                if (this.yy > 59)
+                {
+                    DesbordaTiempo?.Invoke(this, EventArgs.Empty);
+                    this.yy = this.yy%60;
+                }
+                else
+                {
+                    this.yy = value;
+                }
+                lblTime.Text = String.Format("{0,2:D2}:{1,2:D2}", XX, YY);
+                this.Refresh();
+            }
+        }
         string[] estados = { "Play", "Pause" };
         public bool running = false;
         public event System.EventHandler DesbordaTiempo;
+        public event System.EventHandler Pulsacion;
         public Reproductor()
         {
             InitializeComponent();
             btnPlay.Text = estados[0];
-            lblTime.Text = String.Format("{0,2:D2}:{1,2:D2}", contMin, contSec);
-            timer1.Start();
-        }
-        public void ActualizarTiempo()
-        {
-            contSec++;
-            if (contSec >= 60)
-            {
-                contSec = 0;
-                contMin++;
-                if (contMin > 99)
-                {
-                    DesbordaTiempo?.Invoke(this,EventArgs.Empty);
-                }
-            }
-            lblTime.Text = String.Format("{0,2:D2}:{1,2:D2}", contMin, contSec);
-            Refresh();
+            lblTime.Text = String.Format("{0,2:D2}:{1,2:D2}", XX, YY);
         }
         protected override void OnPaint(PaintEventArgs e)
         {
             base.OnPaint(e);
             Graphics g = e.Graphics;
-            //g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-
-            //Finalmente pintamos el Texto; desplazado si fuera necesario
-            /*SolidBrush b = new SolidBrush(this.ForeColor);
-            g.DrawString(this.Text, this.Font, b, 0, 0);
-            Size tam = g.MeasureString(this.Text, this.Font).ToSize();*/
             this.Size = new Size(Math.Max(lblTime.Width,btnPlay.Width), lblTime.Height+btnPlay.Height);
-            //b.Dispose();
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            if (running)
-            {
-                ActualizarTiempo();
-            }
         }
 
         private void btnPlay_Click(object sender, EventArgs e)
         {
+            Pulsacion?.Invoke(this, EventArgs.Empty);
             running = !running;
             if (running)
             {

@@ -85,5 +85,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DI_T6_NuevosComponentes\DI_T6_NuevosComponentes.csproj">
+      <Project>{9E2DD5B4-89E6-4C4F-A5FA-CA67C119C61D}</Project>
+      <Name>DI_T6_NuevosComponentes</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
